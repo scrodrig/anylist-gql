@@ -17,8 +17,9 @@ export class ItemsService {
     return await this.itemsRepository.save(newItem);
   }
 
-  findAll() {
-    return [];
+  async findAll(): Promise<Item[]> {
+    //TODO: pagination, filtering, sorting
+    return this.itemsRepository.find();
   }
 
   findOne(id: number) {
