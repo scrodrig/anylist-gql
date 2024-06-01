@@ -40,5 +40,5 @@ input UpdateItemInput {
 
   """Units of the quantity"""
   quantityUnits: String
-  id: Int!
+  id: ID!
 }
