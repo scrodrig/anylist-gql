@@ -1,5 +1,5 @@
-import { Injectable } from '@nestjs/common';
 import { CreateItemInput } from './dto/create-item.input';
+import { Injectable } from '@nestjs/common';
 import { UpdateItemInput } from './dto/update-item.input';
 
 @Injectable()
@@ -9,7 +9,7 @@ export class ItemsService {
   }
 
   findAll() {
-    return `This action returns all items`;
+    return [];
   }
 
   findOne(id: number) {
