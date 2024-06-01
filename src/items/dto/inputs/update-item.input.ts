@@ -1,5 +1,5 @@
 import { Field, ID, InputType, PartialType } from '@nestjs/graphql';
-import { IsNotEmpty, IsString, IsUUID } from 'class-validator';
+import { IsNotEmpty, IsUUID } from 'class-validator';
 
 import { CreateItemInput } from './create-item.input';
 
